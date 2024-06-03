@@ -52,6 +52,7 @@ bindsym $mod+z       			exec --no-startup-id discord
 bindsym $mod+q 					exec --no-startup-id whatsie
 bindsym $alt+Control+r 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e ranger"
 bindsym $alt+Control+h 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e htop"
+bindsym $mod+Control+l          exec --no-startup-id ~/.config/i3/bin/lockscreen
 
 # -- Rofi --
 

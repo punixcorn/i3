@@ -27,12 +27,12 @@ function initfeh() {
 	feh --bg-scale ~/.config/i3/wallpaper.png >/dev/null 2>&1 &
 }
 
-# Lauch notification daemon
-[ -f /bin/dunst ] && dunst -config ~/.config/i3/dunstrc >/dev/null 2>&1 &
-
 # Lauch polybar
 [ -f /bin/polybar ] && polybar -c ~/.config/i3/polybar/polybar.ini >/dev/null 2>&1 &
 disown
+
+# Lauch notification daemon
+[ -f /bin/dunst ] && dunst -config ~/.config/i3/dunstrc >/dev/null 2>&1 &
 
 # Lauch compositor
 picom --experimental-backends --conf ~/.config/i3/picom.conf >/dev/null 2>&1 &
@@ -48,5 +48,6 @@ disown
 # conky
 [ -f /bin/conky ] && ~/.config/i3/conky/start.sh >/dev/null 2>&1
 
+# wal
 [ -f /bin/wal ] && [ ! -d "$HOME/.cache/wal/" ] && wal -i ~/.config/i3/wallpaper.png 2>/dev/null
 exit 0

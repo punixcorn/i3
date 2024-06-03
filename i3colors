@@ -1,7 +1,7 @@
 # class                 border  backgr. text    indicator child_border
-client.focused          #8ae1c1 #8ae1c1 #B6A743 #32514E   #8ae1c1
-client.focused_inactive #0F161E #0F161E #0F161E #32514E   #0F161E
-client.unfocused        #0F161E #0F161E #B6A743 #32514E   #0F161E
-client.urgent           #595A59 #595A59 #B6A743 #32514E   #595A59
-client.placeholder      #0F161E #0F161E #B6A743 #32514E   #0F161E
-client.background       #0F161E
+client.focused          #b3baba #b3baba #708A67 #3D6446   #b3baba
+client.focused_inactive #121a1b #121a1b #121a1b #3D6446   #121a1b
+client.unfocused        #121a1b #121a1b #708A67 #3D6446   #121a1b
+client.urgent           #4C4F4F #4C4F4F #708A67 #3D6446   #4C4F4F
+client.placeholder      #121a1b #121a1b #708A67 #3D6446   #121a1b
+client.background       #121a1b
