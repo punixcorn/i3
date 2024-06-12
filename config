@@ -53,6 +53,7 @@ bindsym $mod+q 					exec --no-startup-id whatsie
 bindsym $alt+Control+r 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e ranger"
 bindsym $alt+Control+h 			exec --no-startup-id "alacritty --config-file ~/.config/i3/alacritty/alacritty.yml -e htop"
 bindsym $mod+Control+l          exec --no-startup-id ~/.config/i3/bin/lockscreen
+bindsym $mod+Control+t          exec --no-startup-id ~/.config/i3/bin/toggletouchpad
 
 # -- Rofi --
 
@@ -86,7 +87,7 @@ bindsym $mod+Control+Print 		exec --no-startup-id "~/.config/i3/bin/takeshot --a
 # -- i3wm --
 
 # Lockscreen
-bindsym $alt+Control+l 			exec --no-startup-id "betterlockscreen --lock"
+bindsym $alt+Control+l 			exec --no-startup-id ~/.config/i3/bin/lockscreen
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
